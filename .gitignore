@@ -1,0 +1,44 @@
+# Build artifacts
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Generated files
+*.inc
+*.h.inc
+*.cpp.inc
+
+# Executables
+nnc-opt
+standalone_demo
+
+# Object files
+*.o
+*.a
+*.so
+*.dylib
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Test artifacts
+*.test
+test_output/
