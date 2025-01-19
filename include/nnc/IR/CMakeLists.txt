@@ -1,0 +1,6 @@
+set(LLVM_TARGET_DEFINITIONS NeuralNetworkOps.td)
+mlir_tablegen(NeuralNetworkOps.h.inc -gen-op-decls)
+mlir_tablegen(NeuralNetworkOps.cpp.inc -gen-op-defs)
+mlir_tablegen(NeuralNetworkOpsDialect.h.inc -gen-dialect-decls)
+mlir_tablegen(NeuralNetworkOpsDialect.cpp.inc -gen-dialect-defs)
+add_public_tablegen_target(NeuralNetworkOpsIncGen)
